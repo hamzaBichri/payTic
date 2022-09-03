@@ -1,0 +1,58 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+.Header {
+    background:  #f7f7f7;
+}
+.container {
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
+.log p {
+    padding: 0;
+    font-size: 35px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.menuItem ul {
+    display: flex;
+
+}
+
+.menuItem li {
+    margin-left: 60px;
+    list-style: none;
+   
+}
+.active a{
+    color: red;
+}
+
+
+.activelogin a {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 13px;
+    border-radius: 7px;
+    color: white;
+}
+
+.activelogout{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 7px;
+    color: white;
+    margin-top: -9px;
+}
